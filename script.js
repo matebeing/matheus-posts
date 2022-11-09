@@ -6,7 +6,7 @@ fetch(api)
         document.getElementById("latest-anchor").href = data[0].url;
         document.getElementById("latest-anchor").target = "_blank"
 
-        document.getElementById("latest-banner").src = data[0].cover_image;
+        document.getElementById("latest-banner").src = data[0].social_image;
         document.getElementById("latest-title").innerText = data[0].title;
         document.getElementById("latest-description").innerText = data[0].description;
         document.getElementById("author-avatar").src = data[0].user.profile_image_90;
